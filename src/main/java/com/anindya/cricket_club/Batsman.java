@@ -4,12 +4,9 @@ public class Batsman extends Player{
     String pType, SR, f_s,HS;
 
 
-    public Batsman(String name, String dob, String doj, int age) {
-        super(name, dob, doj, age);
-    }
 
-    public Batsman(String name, String dob, String doj, int age, String pType, String SR, String f_s, String HS) {
-        super(name, dob, doj, age);
+    public Batsman(String name, String dob, String doj, int age, String pType, String SR, String f_s, String HS,String pass) {
+        super(name, dob, doj, age,pass);
         this.pType = pType;
         this.SR = SR;
         this.f_s = f_s;

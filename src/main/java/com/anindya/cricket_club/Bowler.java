@@ -3,13 +3,8 @@ package com.anindya.cricket_club;
 public class Bowler extends Player{
     String pType, eco, wicket,bf;
 
-
-    public Bowler(String name, String dob, String doj, int age) {
-        super(name, dob, doj, age);
-    }
-
-    public Bowler(String name, String dob, String doj, int age, String pType, String eco, String wicket, String bf) {
-        super(name, dob, doj, age);
+    public Bowler(String name, String dob, String doj, int age, String pType, String eco, String wicket, String bf,String pass) {
+        super(name, dob, doj, age,pass);
         this.pType = pType;
         this.eco = eco;
         this.wicket = wicket;

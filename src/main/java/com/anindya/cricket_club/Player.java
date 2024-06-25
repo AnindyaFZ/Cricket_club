@@ -1,14 +1,15 @@
 package com.anindya.cricket_club;
 
 public class Player {
-    String name,dob,doj;
+    String name,dob,doj,pass;
     int age;
 
-    public Player(String name, String dob, String doj, int age) {
+    public Player(String name, String dob, String doj, int age,String pass) {
         this.name = name;
         this.dob = dob;
         this.doj = doj;
         this.age = age;
+        this.pass=pass;
     }
 
     public String getName() {
