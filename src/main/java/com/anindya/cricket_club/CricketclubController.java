@@ -5,6 +5,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 import java.util.ArrayList;
+import java.util.jar.Attributes;
 
 public class CricketclubController
 {
@@ -14,11 +15,13 @@ public class CricketclubController
     private TextField passwordTextField;
     @javafx.fxml.FXML
     private Label LabelTextfield;
-    @javafx.fxml.FXML
-    private ComboBox<String> comboBox;
     ArrayList<Player> playerArrayList;
+    @javafx.fxml.FXML
+    private ComboBox playertypeComboBox;
 
     @javafx.fxml.FXML
     public void initialize() {
         playerArrayList= new ArrayList<>();
+
+        playerArrayList.add(new Batsman(name "rafig" ));
     }}
